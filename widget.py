@@ -3,6 +3,8 @@ from PyQt5.QtWidgets import QWidget, QLabel, QVBoxLayout, QHBoxLayout, QPushButt
     QPlainTextEdit, QApplication
 from PyQt5.QtCore import Qt, QRect
 
+from AipOcr import pic2txt
+
 
 class Widget(QWidget):
     def __init__(self):
@@ -72,7 +74,8 @@ class Widget(QWidget):
         self.btnCopy.clicked.connect(self.copyTxt)
 
     def baiduPic2txt(self):
-        self.plaintext.setPlainText('asdf')
+        txt = pic2txt()
+        self.plaintext.setPlainText(txt)
 
     def copyTxt(self):
         clipboard = QApplication.clipboard()
