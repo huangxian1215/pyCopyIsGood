@@ -1,8 +1,8 @@
 import sys
 
 from PyQt5.QtWidgets import QApplication
-
-from ToolWidget import ToolWidget
+import PyQt5.sip
+from src.ToolWidget import ToolWidget
 
 
 def print_hi(name):

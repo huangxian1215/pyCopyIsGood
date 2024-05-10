@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QWidget, QLabel, QVBoxLayout, QHBoxLayout, QPushButt
     QPlainTextEdit, QApplication
 from PyQt5.QtCore import Qt, QRect
 
-from AipOcr import pic2txt
+from src.AipOcr import pic2txt
 
 
 class Widget(QWidget):

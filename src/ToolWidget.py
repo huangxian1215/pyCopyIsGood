@@ -1,6 +1,6 @@
 from PyQt5.QtCore import QTimer
 from PyQt5.QtWidgets import QDialog, QApplication, QVBoxLayout, QPushButton
-from widget import Widget
+from src.widget import Widget
 
 class ToolWidget(QDialog):
     def __init__(self):

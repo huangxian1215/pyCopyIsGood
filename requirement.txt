@@ -1,0 +1,4 @@
+baidu-aip
+PyQt5
+chardet
+py2exe
